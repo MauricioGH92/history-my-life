@@ -2,6 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import profilePhoto from '../public/IMG_20210828_094149_2.jpg'
+import instagram from '../public/instagram.png'
+import linkedin from '../public/LinkedIn.png'
+import github from '../public/github.webp'
+import flagEcuador from '../public/flag-ecuador.png'
+
 
 
 export default function Home() {
@@ -29,19 +34,19 @@ export default function Home() {
           </div>
           <div className="card_userdata">
             <ul>
-              <li>merchan.ber.mau@gmail.com</li>
-              <li>Ecuador</li>
+              <li><a href="mailto:merchan.ber.mau@gmail.com">merchan.ber.mau@gmail.com</a></li>
+              <li><Image src={flagEcuador} alt ="flag Ecuador" height={20}  width={20} /> Ecuador </li>
             </ul>
           </div>
           <div className="card_social">
-            <a href="https://twitter.com/gndx">
-              {/* <img src="${twitter}" /> */}
+            <a href="https://www.linkedin.com/in/mauricio-merchan-100866155/" target="_blank">
+              <Image src= {linkedin} alt="profile Linkedin" />
             </a>
-            <a href="https://github.com/gndx">
-              {/* <img src="${github}" /> */}
+            <a href="https://github.com/MAURI-PROGRAM"  target="_blank">
+              <Image src= {github} alt="profile Linkedin" />
             </a>
-            <a href="https://instagram.com/gndx">
-              {/* <img src="${instagram}" /> */}
+            <a href="https://www.instagram.com/"  target="_blank">
+              <Image src= {instagram} alt="profile Instagram" />
             </a>
           </div>
         </div>
