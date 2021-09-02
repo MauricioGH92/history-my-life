@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import profilePhoto from '../public/IMG_20210828_094149_2.jpg'
 
 
 export default function Home() {
@@ -16,7 +18,7 @@ export default function Home() {
         <div className="card">
           <div className="card_details">
             <div className="card_photo center circle">
-              <img src="IMG_20210828_094149_2.jpg" alt="Michael Merchan"/>
+              <Image src={profilePhoto} alt="Michael Merchan" />
               {/* <svg viewBox="0 0 100 100"  style="enable-background:new -580 439 577.9 194;"
                 xml:space="preserve">
                 <circle cx="50" cy="50" r="50" />
