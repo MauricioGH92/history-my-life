@@ -39,13 +39,13 @@ export default function Home() {
             </ul>
           </div>
           <div className="card_social">
-            <a href="https://www.linkedin.com/in/mauricio-merchan-100866155/" target="_blank">
+            <a href="https://www.linkedin.com/in/mauricio-merchan-100866155/" target="_blank" rel="noreferrer">
               <Image src= {linkedin} alt="profile Linkedin" />
             </a>
-            <a href="https://github.com/MAURI-PROGRAM"  target="_blank">
+            <a href="https://github.com/MAURI-PROGRAM"  target="_blank" rel="noreferrer">
               <Image src= {github} alt="profile Linkedin" />
             </a>
-            <a href="https://www.instagram.com/"  target="_blank">
+            <a href="https://www.instagram.com/"  target="_blank" rel="noreferrer">
               <Image src= {instagram} alt="profile Instagram" />
             </a>
           </div>
